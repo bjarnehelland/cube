@@ -24,7 +24,7 @@ export default {
       },
       {
         name: 'H',
-        moves: "F ( R U R' U') 3 F'",
+        moves: "F ( R U R' U' )3 F'",
       },
       {
         name: 'Pi',

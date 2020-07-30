@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import algs from '../cubealgorithms'
+import Algorithm from '../components/Algorithm'
 
 const Home = () => (
   <div className="container">
@@ -13,11 +14,8 @@ const Home = () => (
         <div key={group.name}>
           <h2>{group.name}</h2>
           <div>
-            {group.algorithms.map((alg) => (
-              <div key={alg.name}>
-                <h3>{alg.name}</h3>
-                <div>{alg.moves}</div>
-              </div>
+            {group.algorithms.map((algorithm) => (
+              <Algorithm key={algorithm.name} algorithm={algorithm} />
             ))}
           </div>
         </div>
