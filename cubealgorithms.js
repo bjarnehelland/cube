@@ -56,8 +56,12 @@ export default {
         moves: "R U R' U' R' F R2 U' R' U' R U R' F'",
       },
       {
-        name: '3-Edge Cycle',
-        moves: '',
+        name: '3-Edge Cycle #1',
+        moves: "M2 U M U2 M' U M2",
+      },
+      {
+        name: '3-Edge Cycle #2',
+        moves: "M2 U' M U2 M' U' M2",
       },
       {
         name: 'Opposite Edge Swap',
