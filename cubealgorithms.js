@@ -1,6 +1,6 @@
 export default {
   '2lookOLL': {
-    name: '2 look OLL',
+    name: '2-look OLL',
     algorithms: [
       {
         name: 'Line',
@@ -41,6 +41,31 @@ export default {
       {
         name: 'U',
         moves: "R2 D ( R' U2 R ) D' ( R' U2 R' )",
+      },
+    ],
+  },
+  '2lookPLL': {
+    name: '2-look PLL',
+    algorithms: [
+      {
+        name: 'Diagonal Corner Swap',
+        moves: "( F R U' R' U' R U R' F' ) ( R U R' U' R' F R F' )",
+      },
+      {
+        name: 'Adjacent Corner Swap',
+        moves: "R U R' U' R' F R2 U' R' U' R U R' F'",
+      },
+      {
+        name: '3-Edge Cycle',
+        moves: '',
+      },
+      {
+        name: 'Opposite Edge Swap',
+        moves: "M2 U' M2 U2 M2 U' M2",
+      },
+      {
+        name: 'Adjacent Edge Swap',
+        moves: "M' U' M2 U' M2 U' M' U2 M2",
       },
     ],
   },

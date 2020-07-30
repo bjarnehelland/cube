@@ -38,7 +38,7 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
       }
     `}</style>
 
